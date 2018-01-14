@@ -24,6 +24,7 @@
 		2D9B105B2008A2AA0016EDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D9B105D2008A2AA0016EDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D9B10632008A44E0016EDB0 /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2DF922AE200B1AEC001C33C2 /* SubjectsPlaygrounds.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SubjectsPlaygrounds.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43623E2240F2E97B2175AEFE /* Pods_Rx_Observables_Subjects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rx_Observables_Subjects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F90953E7F4B797C88AE43F /* Pods-Rx-Observables-Subjects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx-Observables-Subjects.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rx-Observables-Subjects/Pods-Rx-Observables-Subjects.debug.xcconfig"; sourceTree = "<group>"; };
 		D617412AAA4D99C34D31BB04 /* Pods-Rx-Observables-Subjects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx-Observables-Subjects.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rx-Observables-Subjects/Pods-Rx-Observables-Subjects.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,6 +45,7 @@
 		2D9B10452008A2AA0016EDB0 = {
 			isa = PBXGroup;
 			children = (
+				2DF922AE200B1AEC001C33C2 /* SubjectsPlaygrounds.playground */,
 				2D9B10632008A44E0016EDB0 /* Observables.playground */,
 				2D9B10502008A2AA0016EDB0 /* Rx-Playgrounds */,
 				2D9B104F2008A2AA0016EDB0 /* Products */,
@@ -362,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7TD42S7LLX;
-				INFOPLIST_FILE = "Rx-Observables-Subjects/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Rx-Playgrounds/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kr.rx.playgrounds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -378,7 +380,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7TD42S7LLX;
-				INFOPLIST_FILE = "Rx-Observables-Subjects/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Rx-Playgrounds/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kr.rx.playgrounds;
 				PRODUCT_NAME = "$(TARGET_NAME)";

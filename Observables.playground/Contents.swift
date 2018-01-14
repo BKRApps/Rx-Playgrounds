@@ -1,12 +1,12 @@
 import UIKit
 import RxSwift
 
-
 // utility function
 
-func provideHeadLine(_ name:String) {
-    print("---------------------------------------------\(name)----------------------------------------------")
+func exampleName(_ name:String) {
+    print("\n-------\(name)-----------\n")
 }
+
 
 let bag = DisposeBag()
 // Observable
@@ -59,7 +59,7 @@ enum MyError : Error {
 }
 
 
-provideHeadLine("Observable Create")
+exampleName("Observable Create")
 
 Observable<String>.create { (observer) -> Disposable in
     observer.onNext("This is kumar")
@@ -74,7 +74,7 @@ Observable<String>.create { (observer) -> Disposable in
     onDisposed: {print("Disposed") }
 ).disposed(by: bag)
 
-provideHeadLine("Observable Factory")
+exampleName("Observable Factory")
 
 var flag = true
 let observableFactory = Observable<Int>.deferred { () -> Observable<Int> in
@@ -89,7 +89,7 @@ let observableFactory = Observable<Int>.deferred { () -> Observable<Int> in
 observableFactory.subscribe( { print( $0.element ?? 0 ) })
 observableFactory.subscribe( { print( $0.element ?? 0 ) })
 
-provideHeadLine("Traits")
+exampleName("Traits")
 
 // Singles will emit either a .success(value) or .error event.
 // A Completable will only emit a .completed or .error event.
