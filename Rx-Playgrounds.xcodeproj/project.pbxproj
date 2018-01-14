@@ -24,7 +24,9 @@
 		2D9B105B2008A2AA0016EDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D9B105D2008A2AA0016EDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D9B10632008A44E0016EDB0 /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		2DF922AE200B1AEC001C33C2 /* SubjectsPlaygrounds.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SubjectsPlaygrounds.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2DA0515D200BBE540050C3A8 /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2DDA2FB4200BBE2B00BB774A /* TransformingOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TransformingOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2DDA2FB5200BBE2B00BB774A /* FilterOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilterOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43623E2240F2E97B2175AEFE /* Pods_Rx_Observables_Subjects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rx_Observables_Subjects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F90953E7F4B797C88AE43F /* Pods-Rx-Observables-Subjects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx-Observables-Subjects.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rx-Observables-Subjects/Pods-Rx-Observables-Subjects.debug.xcconfig"; sourceTree = "<group>"; };
 		D617412AAA4D99C34D31BB04 /* Pods-Rx-Observables-Subjects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx-Observables-Subjects.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rx-Observables-Subjects/Pods-Rx-Observables-Subjects.release.xcconfig"; sourceTree = "<group>"; };
@@ -45,7 +47,9 @@
 		2D9B10452008A2AA0016EDB0 = {
 			isa = PBXGroup;
 			children = (
-				2DF922AE200B1AEC001C33C2 /* SubjectsPlaygrounds.playground */,
+				2DDA2FB5200BBE2B00BB774A /* FilterOperators.playground */,
+				2DDA2FB4200BBE2B00BB774A /* TransformingOperators.playground */,
+				2DA0515D200BBE540050C3A8 /* Subjects.playground */,
 				2D9B10632008A44E0016EDB0 /* Observables.playground */,
 				2D9B10502008A2AA0016EDB0 /* Rx-Playgrounds */,
 				2D9B104F2008A2AA0016EDB0 /* Products */,

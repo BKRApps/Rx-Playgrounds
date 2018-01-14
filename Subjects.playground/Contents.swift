@@ -2,6 +2,7 @@
 
 import UIKit
 import RxSwift
+import RxCocoa
 
 func exampleName(_ name:String) {
     print("\n-------\(name)-----------\n")
@@ -62,4 +63,6 @@ let variableSubject = Variable<Int>.init(10000)
 variableSubject.asObservable().subscribe(onNext:{print($0)})
 variableSubject.value
 variableSubject.value = 20000
+
+
 
