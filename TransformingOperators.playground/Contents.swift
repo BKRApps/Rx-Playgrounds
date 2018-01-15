@@ -63,4 +63,22 @@ latestSubject.onNext(student4)
 student3.score.onNext(100) // it is not going to emit, if we use the flatMapLatest
 student4.score.onNext(200)
 
+// flatmap
+
+
+let a = ["1","2","3","4","5"]
+
+struct Emp {
+    var empNumber:Int
+    init? (value:String) {
+        if let v1 = Int(value) {
+            self.empNumber = v1
+            return
+        }
+        return nil
+    }
+}
+
+let b = a.flatMap{Emp.init(value: $0)}
+print(b)
 

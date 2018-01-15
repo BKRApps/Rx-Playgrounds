@@ -1,6 +1,0 @@
-framework module Pods_Rx_Observables_Subjects {
-  umbrella header "Pods-Rx-Observables-Subjects-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xT4-NN-eyR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Git Feed View Controller-->
+        <scene sceneID="p2a-Cp-yoC">
+            <objects>
+                <viewController id="xT4-NN-eyR" customClass="GitFeedViewController" customModule="Rx_Playgrounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AYO-iR-ua6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pz8-O2-Naw">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="gitFeedCell" rowHeight="100" id="hOg-oY-j60" customClass="GitFeedCell" customModule="Rx_Playgrounds" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hOg-oY-j60" id="6uN-Gg-hJe">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" translatesAutoresizingMaskIntoConstraints="NO" id="ZN0-kH-YR1">
+                                                    <rect key="frame" x="10" y="10" width="95.5" height="79.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="TZU-d5-Pck"/>
+                                                        <constraint firstAttribute="width" secondItem="ZN0-kH-YR1" secondAttribute="height" multiplier="1.2" id="mNo-dx-vlf"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="752" text="Label " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dH-wg-9op">
+                                                    <rect key="frame" x="120.5" y="25" width="239.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clf-Q6-XI9">
+                                                    <rect key="frame" x="120" y="54" width="240" height="30.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="8dH-wg-9op" firstAttribute="top" secondItem="6uN-Gg-hJe" secondAttribute="top" constant="25" id="7Vo-mx-eqA"/>
+                                                <constraint firstItem="clf-Q6-XI9" firstAttribute="leading" secondItem="8dH-wg-9op" secondAttribute="leading" id="KBc-ju-nPG"/>
+                                                <constraint firstItem="8dH-wg-9op" firstAttribute="leading" secondItem="ZN0-kH-YR1" secondAttribute="trailing" constant="15" id="Tko-7H-8tU"/>
+                                                <constraint firstAttribute="bottom" secondItem="clf-Q6-XI9" secondAttribute="bottom" constant="15" id="VbQ-1g-tO7"/>
+                                                <constraint firstItem="ZN0-kH-YR1" firstAttribute="top" secondItem="6uN-Gg-hJe" secondAttribute="top" constant="10" id="YIC-vo-eG8"/>
+                                                <constraint firstAttribute="bottom" secondItem="ZN0-kH-YR1" secondAttribute="bottom" constant="10" id="mwo-oY-ilc"/>
+                                                <constraint firstItem="clf-Q6-XI9" firstAttribute="trailing" secondItem="8dH-wg-9op" secondAttribute="trailing" id="pV7-Lh-brH"/>
+                                                <constraint firstItem="ZN0-kH-YR1" firstAttribute="leading" secondItem="6uN-Gg-hJe" secondAttribute="leading" constant="10" id="ruB-6y-V4u"/>
+                                                <constraint firstItem="clf-Q6-XI9" firstAttribute="top" secondItem="8dH-wg-9op" secondAttribute="bottom" constant="8" id="t6v-zt-Y7Z"/>
+                                                <constraint firstAttribute="trailing" secondItem="8dH-wg-9op" secondAttribute="trailing" constant="15" id="z84-Mx-YiZ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="actorImage" destination="ZN0-kH-YR1" id="k5E-V5-2aR"/>
+                                            <outlet property="actorName" destination="8dH-wg-9op" id="5Bn-w2-H4F"/>
+                                            <outlet property="eventType" destination="clf-Q6-XI9" id="UAx-xm-dfU"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="xT4-NN-eyR" id="CY0-Bf-aXS"/>
+                                    <outlet property="delegate" destination="xT4-NN-eyR" id="cbi-h8-tpZ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pz8-O2-Naw" firstAttribute="top" secondItem="Dzp-Zb-e4H" secondAttribute="top" id="3ax-Cy-s9q"/>
+                            <constraint firstItem="Dzp-Zb-e4H" firstAttribute="bottom" secondItem="Pz8-O2-Naw" secondAttribute="bottom" id="T7M-o1-hnr"/>
+                            <constraint firstItem="Pz8-O2-Naw" firstAttribute="leading" secondItem="Dzp-Zb-e4H" secondAttribute="leading" id="UCn-3Y-efm"/>
+                            <constraint firstItem="Dzp-Zb-e4H" firstAttribute="trailing" secondItem="Pz8-O2-Naw" secondAttribute="trailing" id="cew-dg-nim"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Dzp-Zb-e4H"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pGb-9C-pC1"/>
+                    <connections>
+                        <outlet property="tableView" destination="Pz8-O2-Naw" id="oVc-oc-mV7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8B9-b8-b2m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="672.79999999999995" y="115.59220389805098"/>
+        </scene>
+    </scenes>
+</document>

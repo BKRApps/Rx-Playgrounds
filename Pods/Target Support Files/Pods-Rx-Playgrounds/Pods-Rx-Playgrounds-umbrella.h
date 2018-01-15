@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Rx_Observables_SubjectsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Rx_Observables_SubjectsVersionString[];
+FOUNDATION_EXPORT double Pods_Rx_PlaygroundsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Rx_PlaygroundsVersionString[];
 

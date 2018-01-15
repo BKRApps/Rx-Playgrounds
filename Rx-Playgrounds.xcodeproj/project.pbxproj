@@ -7,27 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		108556E1AE28549106883EAE /* Pods_Rx_Playgrounds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D335897F3A5E73D7141406 /* Pods_Rx_Playgrounds.framework */; };
+		2D0B5CC4200CCAC700E89937 /* MetaDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0B5CC3200CCAC700E89937 /* MetaDataModel.swift */; };
+		2D0B5CC6200CD5D100E89937 /* GitFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0B5CC5200CD5D100E89937 /* GitFeedCell.swift */; };
 		2D9B10522008A2AA0016EDB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B10512008A2AA0016EDB0 /* AppDelegate.swift */; };
-		2D9B10542008A2AA0016EDB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B10532008A2AA0016EDB0 /* ViewController.swift */; };
+		2D9B10542008A2AA0016EDB0 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B10532008A2AA0016EDB0 /* IntroViewController.swift */; };
 		2D9B10572008A2AA0016EDB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9B10552008A2AA0016EDB0 /* Main.storyboard */; };
 		2D9B10592008A2AA0016EDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9B10582008A2AA0016EDB0 /* Assets.xcassets */; };
 		2D9B105C2008A2AA0016EDB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9B105A2008A2AA0016EDB0 /* LaunchScreen.storyboard */; };
+		2DA05160200CAC390050C3A8 /* GitFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA0515F200CAC390050C3A8 /* GitFeed.storyboard */; };
+		2DA05162200CAC510050C3A8 /* GitFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA05161200CAC510050C3A8 /* GitFeedViewController.swift */; };
 		CBE2B5A6AECF84598E7510CB /* Pods_Rx_Observables_Subjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43623E2240F2E97B2175AEFE /* Pods_Rx_Observables_Subjects.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D0B5CC3200CCAC700E89937 /* MetaDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaDataModel.swift; sourceTree = "<group>"; };
+		2D0B5CC5200CD5D100E89937 /* GitFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFeedCell.swift; sourceTree = "<group>"; };
 		2D9B104E2008A2AA0016EDB0 /* Rx-Playgrounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rx-Playgrounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9B10512008A2AA0016EDB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D9B10532008A2AA0016EDB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D9B10532008A2AA0016EDB0 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		2D9B10562008A2AA0016EDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D9B10582008A2AA0016EDB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D9B105B2008A2AA0016EDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D9B105D2008A2AA0016EDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D9B10632008A44E0016EDB0 /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2DA0515D200BBE540050C3A8 /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2DA0515F200CAC390050C3A8 /* GitFeed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GitFeed.storyboard; sourceTree = "<group>"; };
+		2DA05161200CAC510050C3A8 /* GitFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFeedViewController.swift; sourceTree = "<group>"; };
 		2DDA2FB4200BBE2B00BB774A /* TransformingOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TransformingOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2DDA2FB5200BBE2B00BB774A /* FilterOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilterOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		43623E2240F2E97B2175AEFE /* Pods_Rx_Observables_Subjects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rx_Observables_Subjects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69846D30E91F3D8D26B24A54 /* Pods-Rx-Playgrounds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx-Playgrounds.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rx-Playgrounds/Pods-Rx-Playgrounds.release.xcconfig"; sourceTree = "<group>"; };
+		72075B320B46C4C813FF5353 /* Pods-Rx-Playgrounds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx-Playgrounds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rx-Playgrounds/Pods-Rx-Playgrounds.debug.xcconfig"; sourceTree = "<group>"; };
+		98D335897F3A5E73D7141406 /* Pods_Rx_Playgrounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rx_Playgrounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F90953E7F4B797C88AE43F /* Pods-Rx-Observables-Subjects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx-Observables-Subjects.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rx-Observables-Subjects/Pods-Rx-Observables-Subjects.debug.xcconfig"; sourceTree = "<group>"; };
 		D617412AAA4D99C34D31BB04 /* Pods-Rx-Observables-Subjects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx-Observables-Subjects.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rx-Observables-Subjects/Pods-Rx-Observables-Subjects.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +50,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBE2B5A6AECF84598E7510CB /* Pods_Rx_Observables_Subjects.framework in Frameworks */,
+				108556E1AE28549106883EAE /* Pods_Rx_Playgrounds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,8 +82,9 @@
 		2D9B10502008A2AA0016EDB0 /* Rx-Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				2DA0515E200CAC0F0050C3A8 /* GitFeedExample */,
 				2D9B10512008A2AA0016EDB0 /* AppDelegate.swift */,
-				2D9B10532008A2AA0016EDB0 /* ViewController.swift */,
+				2D9B10532008A2AA0016EDB0 /* IntroViewController.swift */,
 				2D9B10552008A2AA0016EDB0 /* Main.storyboard */,
 				2D9B10582008A2AA0016EDB0 /* Assets.xcassets */,
 				2D9B105A2008A2AA0016EDB0 /* LaunchScreen.storyboard */,
@@ -79,11 +93,24 @@
 			path = "Rx-Playgrounds";
 			sourceTree = "<group>";
 		};
+		2DA0515E200CAC0F0050C3A8 /* GitFeedExample */ = {
+			isa = PBXGroup;
+			children = (
+				2DA0515F200CAC390050C3A8 /* GitFeed.storyboard */,
+				2DA05161200CAC510050C3A8 /* GitFeedViewController.swift */,
+				2D0B5CC3200CCAC700E89937 /* MetaDataModel.swift */,
+				2D0B5CC5200CD5D100E89937 /* GitFeedCell.swift */,
+			);
+			path = GitFeedExample;
+			sourceTree = "<group>";
+		};
 		B5970784F144A47EC58CD093 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				C7F90953E7F4B797C88AE43F /* Pods-Rx-Observables-Subjects.debug.xcconfig */,
 				D617412AAA4D99C34D31BB04 /* Pods-Rx-Observables-Subjects.release.xcconfig */,
+				72075B320B46C4C813FF5353 /* Pods-Rx-Playgrounds.debug.xcconfig */,
+				69846D30E91F3D8D26B24A54 /* Pods-Rx-Playgrounds.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -92,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				43623E2240F2E97B2175AEFE /* Pods_Rx_Observables_Subjects.framework */,
+				98D335897F3A5E73D7141406 /* Pods_Rx_Playgrounds.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D9B105C2008A2AA0016EDB0 /* LaunchScreen.storyboard in Resources */,
+				2DA05160200CAC390050C3A8 /* GitFeed.storyboard in Resources */,
 				2D9B10592008A2AA0016EDB0 /* Assets.xcassets in Resources */,
 				2D9B10572008A2AA0016EDB0 /* Main.storyboard in Resources */,
 			);
@@ -173,18 +202,20 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Rx-Observables-Subjects/Pods-Rx-Observables-Subjects-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rx-Playgrounds/Pods-Rx-Playgrounds-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rx-Observables-Subjects/Pods-Rx-Observables-Subjects-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rx-Playgrounds/Pods-Rx-Playgrounds-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		96CC5159A4EE0A2FEDCE5631 /* [CP] Check Pods Manifest.lock */ = {
@@ -198,7 +229,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Rx-Observables-Subjects-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Rx-Playgrounds-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -217,7 +248,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rx-Observables-Subjects/Pods-Rx-Observables-Subjects-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rx-Playgrounds/Pods-Rx-Playgrounds-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -227,8 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D9B10542008A2AA0016EDB0 /* ViewController.swift in Sources */,
+				2D0B5CC4200CCAC700E89937 /* MetaDataModel.swift in Sources */,
+				2D9B10542008A2AA0016EDB0 /* IntroViewController.swift in Sources */,
 				2D9B10522008A2AA0016EDB0 /* AppDelegate.swift in Sources */,
+				2DA05162200CAC510050C3A8 /* GitFeedViewController.swift in Sources */,
+				2D0B5CC6200CD5D100E89937 /* GitFeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +397,7 @@
 		};
 		2D9B10612008A2AA0016EDB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7F90953E7F4B797C88AE43F /* Pods-Rx-Observables-Subjects.debug.xcconfig */;
+			baseConfigurationReference = 72075B320B46C4C813FF5353 /* Pods-Rx-Playgrounds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,7 +413,7 @@
 		};
 		2D9B10622008A2AA0016EDB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D617412AAA4D99C34D31BB04 /* Pods-Rx-Observables-Subjects.release.xcconfig */;
+			baseConfigurationReference = 69846D30E91F3D8D26B24A54 /* Pods-Rx-Playgrounds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
