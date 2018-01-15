@@ -77,6 +77,18 @@ skipUntilSubject.skipUntil(skipUntilTrigger).subscribe(onNext:{print($0)}) // sk
 skipUntilTrigger.onNext("Triggered")
 skipUntilSubject.onNext("RxSwift")
 
+exampleName("Take")
+
+PublishSubject<String>.create { (observer) -> Disposable in
+    observer.onNext("Swift")
+    observer.onNext("RxSwift")
+    observer.onNext("Objective-C")
+    return Disposables.create()
+}
+    .skip(1)
+    .take(1)
+    .subscribe(onNext:{print($0)})
+
 exampleName("Distinct")
 
 let distinctSubject = PublishSubject<String>()
