@@ -17,7 +17,6 @@
 		2D9B105C2008A2AA0016EDB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9B105A2008A2AA0016EDB0 /* LaunchScreen.storyboard */; };
 		2DA05160200CAC390050C3A8 /* GitFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA0515F200CAC390050C3A8 /* GitFeed.storyboard */; };
 		2DA05162200CAC510050C3A8 /* GitFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA05161200CAC510050C3A8 /* GitFeedViewController.swift */; };
-		CBE2B5A6AECF84598E7510CB /* Pods_Rx_Observables_Subjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43623E2240F2E97B2175AEFE /* Pods_Rx_Observables_Subjects.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +41,7 @@
 		98D335897F3A5E73D7141406 /* Pods_Rx_Playgrounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rx_Playgrounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F90953E7F4B797C88AE43F /* Pods-Rx-Observables-Subjects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx-Observables-Subjects.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rx-Observables-Subjects/Pods-Rx-Observables-Subjects.debug.xcconfig"; sourceTree = "<group>"; };
 		D617412AAA4D99C34D31BB04 /* Pods-Rx-Observables-Subjects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rx-Observables-Subjects.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rx-Observables-Subjects/Pods-Rx-Observables-Subjects.release.xcconfig"; sourceTree = "<group>"; };
+		F066063E201431F0008BD3A8 /* CombiningOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CombiningOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE2B5A6AECF84598E7510CB /* Pods_Rx_Observables_Subjects.framework in Frameworks */,
 				108556E1AE28549106883EAE /* Pods_Rx_Playgrounds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,6 +59,7 @@
 		2D9B10452008A2AA0016EDB0 = {
 			isa = PBXGroup;
 			children = (
+				F066063E201431F0008BD3A8 /* CombiningOperators.playground */,
 				2DDA2FB5200BBE2B00BB774A /* FilterOperators.playground */,
 				2DDA2FB4200BBE2B00BB774A /* TransformingOperators.playground */,
 				2DA0515D200BBE540050C3A8 /* Subjects.playground */,
